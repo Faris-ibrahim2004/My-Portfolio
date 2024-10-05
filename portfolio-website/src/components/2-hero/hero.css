@@ -1,0 +1,73 @@
+/* Start Hero Section (Left-side) */
+/* Avatar design */
+section.hero {
+  margin: 3rem 0;
+  padding: 0 2rem;
+}
+@media (max-width: 600px) {
+  section.hero {
+    padding: 0 1.2rem;
+  }
+}
+section .left-section {
+  flex-grow: 1;
+}
+section .avatar {
+  width: 110px;
+  padding: 1px;
+  border-radius: 50%;
+  border: 2px solid #f56b3a;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+section .lap-top {
+  margin-left: 0.6rem;
+  font-size: 1.2rem;
+  color: var(--blue);
+}
+/* title - Subtitle - links(social icons) design */
+section h1.title {
+  font-size: 2.3rem;
+  line-height: 1.3;
+  margin: 20px 0;
+  color: var(--title);
+}
+section p.subtitle {
+  color: var(--subtitle);
+  margin: 20px 0;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  text-align: left;
+}
+section .icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+section .icons a {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  color: var(--subtitle);
+}
+section .icons a:hover {
+  color: var(--icon-hover);
+  font-size: 1.4rem;
+}
+/* section .icons a:nth-of-type(1):hover {
+  color: #007bb6;
+}
+section .icons a:nth-of-type(2):hover {
+  color: #0a66c2;
+}
+section .icons a:nth-of-type(3):hover {
+  color: #c32aa3;
+}
+section .icons a:nth-of-type(4):hover {
+  color: #1877f2;
+} */
+/* End Hero Section (Left-side) */
